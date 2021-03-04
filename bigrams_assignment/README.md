@@ -35,7 +35,7 @@ You'll be working with the following:
 ### What you should do
 
 - Check out this repo
-
+        - As a reminder, although the repo is publicly available, please do not post public solutions to the problems (e.g., please do not create a public fork of the repository where you work on solutions).
 
 - Execute `python assignment.py`
 	- It should run successfully from end to end with progress messages on the output
