@@ -30,6 +30,8 @@ from tqdm import tqdm
 #   '<party>TAB<text>'
 # where <party> and <text> refer to the elements of those names in the json.
 # Make sure to replace line-internal whitespace (newlines, tabs, etc.) in text with a space.
+# That is, any sequence of one or more whitespace characters (\s+) should be replaced
+# with a single space character (' ').
 #
 # For information on how to read from a gzipped file, rather than uncompressing and reading, see
 # https://stackoverflow.com/questions/10566558/python-read-lines-from-compressed-text-files#30868178
