@@ -105,7 +105,7 @@ def collect_bigram_counts(lines, stopwords, remove_stopword_bigrams = False):
     # For each line:
     #   Extract all the bigrams from the line 
     #   If remove_stopword_bigrams is True:
-    #     Filter out any bigram where both words are stopwords
+    #     Filter bigrams that contain at least one stopword
     #   Increment the count for each bigram
     # Return the counter
     #
@@ -134,7 +134,7 @@ def collect_bigram_counts(lines, stopwords, remove_stopword_bigrams = False):
 
         # Filter out bigrams where either token is punctuation
         
-        # Optionally filter stop-word bigrams
+        # Optionally filter stopword bigrams
         
         # Increment bigram counts
 
