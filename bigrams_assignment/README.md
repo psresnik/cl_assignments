@@ -11,7 +11,7 @@ In this assignment, you'll get experience with:
 - Tokenizing text
 	- We'll use the spaCy tokenizer
 - Normalizing text
-	- Well use case folding and also a stopword list
+	- We'll use case folding and also a stopword list
 - Extracting potentially useful ngrams
 	- In this assignment we'll focus on bigrams
 - Answering questions like:
@@ -100,13 +100,6 @@ You'll be working with the following:
 		
 		The particular statistical measure we've implemented here is the log-likelihood ratio, which was introduced by [Dunning (1993)](https://www.aclweb.org/anthology/J93-1003/), and in fact we're using [Ted Dunning's implementation](https://github.com/tdunning/python-llr). If you've had some stats before, you can think of this in the same way as a chi-squared test for looking at the association between two binary variables, except that Dunning's 1993 article showed that this test is better when you're dealing with low frequencies.  Jurafsky and Martin (SLP, 3rd ed.) discuss the idea of using this kind of test to distinguish between two different groups in Section 20.5.1. They talk about using this kind of statistic to find terms that distinguish positive from negative movie reviews; here we're looking at the same thing but distinguishing Democratic versus Republican speeches.
 
-		**Question 3 to answer (15%).**  
+		**Question 3 to answer (15%).**
 
-		Looking at the bigrams that are strongly associated with Democrats versus Republicans, what does this tell you about Democrats and Republicans in the Senate during this time period, for example their roles in the Senate and the issues they are concerned with?  
-		
-		
-	
-
-
-
-
+		Looking at the bigrams that are strongly associated with Democrats versus Republicans, what does this tell you about Democrats and Republicans in the Senate during this time period, for example their roles in the Senate and the issues they are concerned with?
